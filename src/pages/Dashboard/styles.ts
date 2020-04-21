@@ -27,6 +27,7 @@ export const Card = styled.div`
   background: ${({ total }: CardProps): string => (total ? '#FF872C' : '#fff')};
   padding: 22px 32px;
   border-radius: 5px;
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.2);
   color: ${({ total }: CardProps): string => (total ? '#fff' : '#363F5F')};
 
   header {
@@ -86,6 +87,7 @@ export const TableContainer = styled.section`
 
     td:first-child {
       border-radius: 8px 0 0 8px;
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.07);
     }
 
     td:last-child {
